@@ -1,3 +1,11 @@
+"use client";
+
+import Map from "@/ui/map";
+
 export default function Home() {
-  return <main className="">crosswalk</main>;
+  return (
+    <main>
+      <Map />
+    </main>
+  );
 }
