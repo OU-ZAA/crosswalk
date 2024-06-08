@@ -1,11 +1,9 @@
-"use client";
-
-import Map from "@/ui/map";
+import MapWithSearch from "@/components/search-with-search";
 
 export default function Home() {
   return (
     <main>
-      <Map />
+      <MapWithSearch />
     </main>
   );
 }

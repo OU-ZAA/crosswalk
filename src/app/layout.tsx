@@ -17,10 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link
+        {/* <link
           href="https://api.tiles.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css"
           rel="stylesheet"
-        />
+        /> */}
       </head>
       <body className={inter.className}>{children}</body>
     </html>
