@@ -30,7 +30,7 @@ export default function MapWithSearch() {
 
   return (
     <div className="absolute w-full">
-      <div className="w-[400px] absolute inset-0 z-10 top-4 left-7">
+      <div className="w-[400px] absolute inset-0 z-10 top-4 left-7 h-fit">
         <SearchBox
           accessToken={accessToken}
           map={mapInstanceRef.current}
