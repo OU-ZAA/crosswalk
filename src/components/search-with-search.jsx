@@ -29,7 +29,7 @@ export default function MapWithSearch() {
   }, []);
 
   return (
-    <div className="absolute w-full">
+    <div className="relative w-full">
       <div className="w-[400px] absolute inset-0 z-10 top-4 left-7 h-fit">
         <SearchBox
           accessToken={accessToken}
@@ -42,11 +42,7 @@ export default function MapWithSearch() {
           theme={{ variables: { boxShadow: "0 0 0 1px silver" } }}
         />
       </div>
-      <div
-        className="relative h-screen"
-        id="map-container"
-        ref={mapContainerRef}
-      />
+      <div className="h-screen" id="map-container" ref={mapContainerRef} />
     </div>
   );
 }
